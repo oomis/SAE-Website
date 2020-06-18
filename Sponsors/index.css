@@ -1,0 +1,50 @@
+nav
+{
+    background-color:  #2F334F !important;
+    border: 2px solid black;
+    color: #FFFFFF;
+    display: flex !important;
+    flex-flow: row wrap !important;
+    justify-content: flex-end !important;
+}
+
+nav a
+{
+    margin-right: 7rem !important;
+    /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+    text-align: left;
+    font: Bold 1.5rem/1.8125rem Segoe UI;
+    letter-spacing: 0.06125rem;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    opacity: 1;
+}
+
+nav a:hover{
+    color: #FFFFFF; 
+}
+
+.container
+{
+    display:flex;
+    order:3;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 2rem;
+    border: 2px solid;
+    align-content: space-around;
+}
+
+.card
+{
+    margin-top: 2rem;
+}
+
+.btn btn-primary
+{
+    width: 9rem !important;
+    border-radius: 1rem !important;
+}
+
+
+
