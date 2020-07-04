@@ -3,6 +3,8 @@
 body{
     background-color: #F5F7FA;
     overflow-x: hidden;
+    box-sizing: border-box;
+    margin: 0px;
 }
 nav
 {
@@ -163,15 +165,18 @@ button:focus{
    display: flex;
    flex-wrap: nowrap;
    border: 6px solid black; 
-   height: 100em; 
-   width: 100em;
+   height: 100vh; 
+   width: 100vw;
 }
+
 .right
 {
    border: 3px solid blue;
    height: 100%;
    width: 50%;
    display: flex;
+   flex-wrap: wrap;
+   box-sizing: border-box;
    background-color:  #2F334F !important;
   
 }
@@ -183,12 +188,24 @@ button:focus{
     display: flex;
 }
 
+.content2{
+  display: flex;
+  flex-wrap: nowrap;
+  border: 2px solid;
+  width: 100%;
+}
+
+.content2>img{
+  width: 20%;
+  height: 90%;
+  margin: 3.33%;
+}
+
 video{
   height: 100%;
   width: 50%;
 }
-.boxes
-{
+.boxes{
   display: flex;
   flex-wrap: nowrap;
   height: 100em; 
