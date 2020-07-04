@@ -169,14 +169,131 @@ button:focus{
 .right
 {
    border: 3px solid blue;
-    height: 35rem;
-    width: 50%;
-    margin-right: 4.8rem;
+   height: 100%;
+   width: 50%;
    display: flex;
-    margin-left: 39.rem;
-    margin-top: -35rem; 
+   background-color:  #2F334F !important;
+  
 }
 .left
 {
+  border: 2px solid red;     
+    height: 100%;
+    width: 50%;
+    display: flex;
+}
 
+video{
+  height: 100%;
+  width: 50%;
+}
+.boxes
+{
+  display: flex;
+  flex-wrap: nowrap;
+  height: 100em; 
+  width: 100em;
+
+}
+.about > h1
+{
+  margin-top: 2rem;
+  letter-spacing: 0.06125rem;
+  text-decoration: underline #F15F7D;
+  text-align: center;
+}
+
+.leftimage
+{
+  height: 100%;
+  width: 50%;
+}
+
+.righttext
+{
+  height: 100%;
+  width: 50%;
+  display: flex;
+}
+.contactus
+{
+  width: 100%;
+}
+.contactus > h1
+{
+  margin-top: 2rem;
+  letter-spacing: 0.06125rem;
+  text-decoration: underline #F15F7D;
+  text-align: center;
+  color: white;
+  font-weight: 600;
+}
+
+.contactform
+{
+  width: 50%;
+  margin-left: 24%;
+  margin-top: 2rem;
+  padding: 3rem;
+
+}
+
+.social-buttons {
+  margin-top: 4rem;
+  text-align: center;
+  font-family: 'Calibri', sans-serif !important;
+  width: 40%;
+}
+
+.footer {
+  background-color: #EAEBF3;
+  padding: 2rem;
+  margin-top: 4rem;
+}
+
+.footer>h1 {
+  text-transform: uppercase;
+
+}
+
+.neo-button {
+  width: 3.375rem;
+  height: 3.375rem;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  /* background-color: #d9d9d9; */
+  background-image: linear-gradient(315deg, #d9d9d9 0%, #f6f2f2 74%);
+  background: #EAEBF3 0% 0% no-repeat padding-box;
+  box-shadow: -5px -5px 15px #FFFFFFCB;
+  border-radius: 15px;
+  opacity: 1;
+}
+
+.neo-button:hover {
+  -webkit-box-shadow: 0px 5px 40px -10px rgba(0, 0, 0, 0.57);
+  -moz-box-shadow: 0px 5px 40px -10px rgba(0, 0, 0, 0.57);
+  box-shadow: 5px 40px -10px rgba(0, 0, 0, 0.57);
+}
+
+.neo-button .fa {
+  color: #eee
+}
+
+.vl {
+  margin-top: -10rem;
+  border-left: 6px solid #F15F7D;
+  height: 11rem;
+  margin-left: 50%;
+}
+
+#footerdata {
+  margin-left: 45%;
+  margin-top: 2rem;
+}
+
+@media (max-width: 1026px){
+  nav a{
+      font-size: 1rem;
+  }
 }
