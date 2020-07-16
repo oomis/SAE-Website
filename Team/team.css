@@ -9,7 +9,6 @@ nav
     display: flex !important;
     justify-content: space-between !important;
     box-sizing: border-box;
-    /* height: 5rem; */
 }
 
 .navbar-toggler{
@@ -20,22 +19,15 @@ nav a
 {
     margin-right: 2rem !important;
     font: Bold 1.5rem/1.8125rem Segoe UI;
-    /* letter-spacing: 0.06125rem; */
     color: #FFFFFF;
     text-transform: uppercase;
     opacity: 1;
-    /* border: 2px solid; */
     outline: none;
 }
 
 nav a:hover{
     color: #FFFFFF; 
 }
-
-/* #navbarSupportedContent
-{
-    margin-left: 25rem;
-} */
 
 .logo
 {
@@ -85,7 +77,6 @@ h3
 .container
 {
     margin-top: 4rem;
-    border: 2px solid;
     margin-left: 10rem;
     display:flex;
     order:3;
@@ -99,10 +90,13 @@ h3
     margin-top: 2rem;
 }
 
+.card:hover{
+  box-shadow: 4px 10px 10px 10px rgba(0, 0, 0, 0.13)
+}
+
 .card-img-top
 {
     border-radius: 36rem;
-    border: 2px solid;
     height: 10rem;
     width: 10rem;
     margin-left: 4rem;
