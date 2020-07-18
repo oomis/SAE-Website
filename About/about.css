@@ -163,11 +163,6 @@ button:focus {
 
 .right {
     border: 3px solid blue;
-    height: 100vh;
-    width: 70%;
-    display: flex;
-    flex-wrap: wrap;
-    box-sizing: border-box;
     background-color: #2f334f !important;
     color: white;
 }
@@ -219,7 +214,7 @@ button:focus {
 
 video {
     height: 100%;
-    width: 50%;
+    width: 100%;
 }
 .boxes {
     display: flex;
